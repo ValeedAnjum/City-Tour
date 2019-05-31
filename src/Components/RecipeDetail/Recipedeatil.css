@@ -1,0 +1,19 @@
+.RecipedetailC .backbtn{
+    border-radius: 0;
+}
+.RecipedetailC .col-md-6{
+    padding: 20px;
+}
+.RecipedetailC .col-md-6 img{
+    width: 100%;
+    height: auto;
+}
+.Recipedetail{
+    position: absolute;
+    border: 1px solid #000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 10;
+    left: 0;
+}

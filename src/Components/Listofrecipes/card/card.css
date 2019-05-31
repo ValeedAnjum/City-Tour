@@ -1,0 +1,43 @@
+.card img{
+    width: 100%;
+    height: 350px;
+}
+.card {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.card .con{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.card .con .mid{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    text-align: left;
+}
+.con .RecipeProvider{
+    font-family: 'Permanent Marker', cursive;
+}
+.con .RecipeHanding{
+    font-family: 'Permanent Marker', cursive;
+}
+.con:hover img{
+    opacity: 0.8;
+}
+.con:hover .mid{
+    opacity: 1;
+}
+.card .btn{
+    border-radius: 0;
+    opacity: 0.5;
+    font-family: 'Permanent Marker', cursive;
+    color:black;
+    cursor: pointer;
+}
